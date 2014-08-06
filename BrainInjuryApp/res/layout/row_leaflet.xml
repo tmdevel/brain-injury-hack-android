@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/leafletColorAndNumber"
+        android:layout_width="@dimen/leaflet_textview_number_size"
+        android:layout_height="@dimen/leaflet_textview_number_size"
+        android:gravity="center"
+        android:textColor="@color/WHITE"
+        android:textSize="@dimen/leaflet_number_size" />
+
+    <TextView
+        android:id="@+id/leafletTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/BLACK"
+        android:textSize="@dimen/leaflet_title_size" />
+
+</LinearLayout>

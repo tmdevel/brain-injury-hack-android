@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="leaflet_colors">
+        <item>@color/leaflet_color_1</item>
+        <item>@color/leaflet_color_2</item>
+        <item>@color/leaflet_color_3</item>
+        <item>@color/leaflet_color_4</item>
+        <item>@color/leaflet_color_5</item>
+        <item>@color/leaflet_color_6</item>
+        <item>@color/leaflet_color_7</item>
+        <item>@color/leaflet_color_8</item>
+    </integer-array>
+
+    <string-array name="leaflet_titles">
+        <item>@string/leaflet_title_1</item>
+        <item>@string/leaflet_title_2</item>
+        <item>@string/leaflet_title_3</item>
+        <item>@string/leaflet_title_4</item>
+        <item>@string/leaflet_title_5</item>
+        <item>@string/leaflet_title_6</item>
+        <item>@string/leaflet_title_7</item>
+        <item>@string/leaflet_title_8</item>
+    </string-array>
+
+</resources>

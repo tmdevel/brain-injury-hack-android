@@ -1,0 +1,17 @@
+<resources>
+
+    <color name="RED_BACKGROUND">#ED1C24</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="BLACK">#000000</color>
+
+    <!-- leaflet list colors -->
+    <color name="leaflet_color_1">#86146A</color>
+    <color name="leaflet_color_2">#1292D1</color>
+    <color name="leaflet_color_3">#DC5D21</color>
+    <color name="leaflet_color_4">#CD006A</color>
+    <color name="leaflet_color_5">#349737</color>
+    <color name="leaflet_color_6">#073E5C</color>
+    <color name="leaflet_color_7">#743F68</color>
+    <color name="leaflet_color_8">#62AE34</color>
+
+</resources>

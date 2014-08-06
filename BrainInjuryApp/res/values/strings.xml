@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Risks</string>
+
+    <!-- leaflet strings -->
+    <string name="leaflet_title_1">Information Leaflet on Brain Injury</string>
+    <string name="leaflet_title_2">Arrival at Hospital and Early Treatment</string>
+    <string name="leaflet_title_3">Discharge and Leaving Hospital</string>
+    <string name="leaflet_title_4">Recovery and Early Rehabilitation</string>
+    <string name="leaflet_title_5">Rehabilitation</string>
+    <string name="leaflet_title_6">Acquired Brain Injury in Children and Young People</string>
+    <string name="leaflet_title_7">Family Dynamics and Caring Responsibility</string>
+    <string name="leaflet_title_8">Support Services Available</string>
+
+</resources>
