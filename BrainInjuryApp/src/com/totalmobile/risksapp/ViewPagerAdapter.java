@@ -21,8 +21,7 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 		if (position == ADAPTER_SIZE - 1) {
 			return new LeafletListFragment();
 		} else {
-			return new LeafletListFragment();
-//			return ImageFragment.newInstance(imageResources[position]);
+			return ImageFragment.newInstance(imageResources[position]);
 		}
 	}
 
