@@ -1,10 +1,15 @@
 <resources>
 
     <string name="app_name">Risks</string>
-    
     <string name="support">Support</string>
-	<string name="map_activity_title">Map</string>
-	
+
+    <!-- map -->
+    <string name="map_activity_title">Map</string>
+    <string name="location_services_not_found">Location services not found, using %s location</string>
+    <string name="last_recorded_location">last recorded</string>
+    <string name="default_location">default</string>
+    <string name="no_data_found">No data found</string>
+
     <!-- leaflet strings -->
     <string name="leaflet_title_1">Information Leaflet on Brain Injury</string>
     <string name="leaflet_title_2">Arrival at Hospital and Early Treatment</string>
@@ -17,4 +22,5 @@
 
     <!-- menu/action strings -->
     <string name="action_map">Show Map</string>
+
 </resources>
