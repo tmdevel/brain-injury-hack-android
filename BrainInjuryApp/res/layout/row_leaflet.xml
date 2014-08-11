@@ -21,5 +21,7 @@
         android:layout_marginRight="5dp"
         android:textColor="@color/BLACK"
         android:textSize="@dimen/leaflet_title_size" />
+    
+   
 
 </LinearLayout>

@@ -27,4 +27,5 @@ public class ViewPagerActivity extends FragmentActivity {
 		viewPager.setAdapter(adapter);
 		circlePageIndicator.setViewPager(viewPager);
 	}
+	
 }
