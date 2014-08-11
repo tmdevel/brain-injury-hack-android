@@ -1,11 +1,13 @@
 package com.totalmobile.risksapp;
 
+import android.net.Uri;
+
 public class Leaflet {
 	private String title;
 	private int color;
-	private int pdf;
+	private Uri pdf;
 
-	public Leaflet(String title, int color, int pdf) {
+	public Leaflet(String title, int color, Uri pdf) {
 		super();
 		this.title = title;
 		this.color = color;
@@ -28,11 +30,11 @@ public class Leaflet {
 		this.color = color;
 	}
 
-	public int getPdf() {
+	public Uri getPdf() {
 		return pdf;
 	}
 
-	public void setPdf(int pdf) {
+	public void setPdf(Uri pdf) {
 		this.pdf = pdf;
 	}
 
