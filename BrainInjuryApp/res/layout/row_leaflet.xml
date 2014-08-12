@@ -19,6 +19,7 @@
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="@dimen/leaflet_textview_margin"
         android:layout_marginRight="@dimen/leaflet_textview_margin"
+        android:maxLines="2"
         android:textColor="@color/BLACK"
         android:textSize="@dimen/leaflet_title_size" />
 

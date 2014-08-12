@@ -8,11 +8,13 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -42,7 +44,7 @@ public class MapActivity extends BaseActivity {
 	protected void onCreate(Bundle savedInstance) {
 		super.onCreate(savedInstance);
 		setContentView(R.layout.activity_map);
-
+		
 		getSupportActionBar().setTitle(
 				getResources().getString(R.string.map_activity_title));
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -51,6 +53,15 @@ public class MapActivity extends BaseActivity {
 				.findFragmentById(R.id.supportMapFragment);
 		map = supportFragment.getMap();
 
+		if (map == null)
+	        return; // Google Maps not available
+	    try {
+	        MapsInitializer.initialize(this);
+	    }
+	    catch (Exception e) {
+	        Log.e("GoogleMapsNotAvailable", "Have GoogleMap but then error");
+	        return;
+	    }
 		LatLng currentPoint = new LatLng(Constants.DEFAULT_LOCATION_LAT,
 				Constants.DEFAULT_LOCATION_LONG);
 		map.moveCamera(CameraUpdateFactory.newLatLngZoom(currentPoint, 10));
@@ -138,7 +149,7 @@ public class MapActivity extends BaseActivity {
 			currentLong = Constants.DEFAULT_LOCATION_LONG;
 			currentLat = Constants.DEFAULT_LOCATION_LAT;
 
-			Toast.makeText(this, text, Toast.LENGTH_LONG).show();
+//			Toast.makeText(this, text, Toast.LENGTH_LONG).show();
 		} else {
 			currentLong = lastLocation.getLongitude();
 			currentLat = lastLocation.getLatitude();
