@@ -22,5 +22,7 @@
         android:maxLines="2"
         android:textColor="@color/BLACK"
         android:textSize="@dimen/leaflet_title_size" />
+    
+   
 
 </LinearLayout>

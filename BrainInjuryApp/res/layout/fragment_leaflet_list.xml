@@ -9,5 +9,11 @@
         android:id="@android:id/list"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
+    
+     <WebView  
+        android:id="@+id/leaflet_webview"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+	/>
 
 </LinearLayout>
